@@ -3,3 +3,5 @@ check number of user in ubunut     cat /etc/passwd
 set password for user in ubuntu         sudo passwd john
 to check space inside directory      like we need to check space in etc directory      etc#du -sh,    or     du -sh /etc                du means disk uses    and  -s display only the total size for the specified directory     -h  display the output in a human-readable format 
 to check disk space in ubunt     df -h         df means disk free space and -h human-readable format 
+to check disk size along with disk partitioning information    fdisk -l 
+give permission to another user equvilant to root     #~/ sudo usermod -aG sudo test     as per this command we have assinged test user to sudo directory access  to verify    #~/  groups username 
